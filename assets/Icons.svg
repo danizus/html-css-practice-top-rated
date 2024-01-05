@@ -1,0 +1,23 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icons" clip-path="url(#clip0_181_1170)">
+<g id="Group 12">
+<g id="Group" style="mix-blend-mode:darken" opacity="0.5">
+<path id="Vector" d="M48.1324 13H15.0002C13.8957 13 13.0002 13.8954 13.0002 15V48.1322C13.0002 49.2368 13.8957 50.1322 15.0002 50.1322H48.1324C49.237 50.1322 50.1324 49.2368 50.1324 48.1322V15C50.1324 13.8954 49.237 13 48.1324 13Z" fill="#9E4D45"/>
+</g>
+<g id="Group_2" style="mix-blend-mode:darken" opacity="0.8">
+<path id="Vector_2" d="M14.4405 28.8806C22.4157 28.8806 28.8808 22.4154 28.8808 14.4403C28.8808 6.46513 22.4157 0 14.4405 0C6.46538 0 0.000244141 6.46513 0.000244141 14.4403C0.000244141 22.4154 6.46538 28.8806 14.4405 28.8806Z" fill="#005A96"/>
+</g>
+<g id="Group_3" style="mix-blend-mode:darken">
+<path id="Vector_3" d="M46.9719 7.0011L63.944 36.3975H30L46.9719 7.0011Z" fill="#005A96"/>
+</g>
+<g id="Group_4" style="mix-blend-mode:darken" opacity="0.8">
+<path id="Vector_4" d="M37.7607 37.6758L45.36 50.8379L37.7607 64H22.5624L14.9631 50.8379L22.5624 37.6758H37.7607Z" fill="#005A96"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_181_1170">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icons" clip-path="url(#clip0_181_1222)">
+<g id="Group" style="mix-blend-mode:darken" opacity="0.5">
+<path id="Vector" d="M54.2583 27.6075L34.1799 0L25.3958 4.38665e-05V12.5488L42.9642 36.3918H54.2583V27.6075Z" fill="#005A96" fill-opacity="0.8"/>
+</g>
+<path id="Vector_2" opacity="0.5" d="M40.4544 51.4513L19.1213 23.8438H10.3372V36.3926L31.6703 64.0001H40.4544V51.4513Z" fill="#005A96" fill-opacity="0.8"/>
+<g id="Group_2" style="mix-blend-mode:multiply">
+<path id="Vector_3" d="M64.3333 0H25.3333V13H64.3333V0Z" fill="#9E4D45" fill-opacity="0.5"/>
+</g>
+<g id="Group_3" style="mix-blend-mode:multiply">
+<path id="Vector_4" d="M54.2544 23.8438H10.3333V36.3926H54.2544V23.8438Z" fill="#9E4D45" fill-opacity="0.5"/>
+</g>
+<g id="Group_4" style="mix-blend-mode:multiply">
+<path id="Vector_5" d="M0.333252 51L40.3333 51L40.3333 64L0.333252 64L0.333252 51Z" fill="#9E4D45" fill-opacity="0.5"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_181_1222">
+<rect width="64" height="64" fill="white" transform="translate(0.333252)"/>
+</clipPath>
+</defs>
+</svg>
