@@ -3,6 +3,7 @@
     --primary-background: #005A96;
     --hover-background: #003355;
     --base-text-color:#3E3E3E;
+    --white-background:#FAF8FE;
 
 
 }
@@ -18,9 +19,6 @@
     max-width:100%;
     width: 85%;
    margin:  auto;
-  
-    
-
 }
 
 .container {
@@ -236,7 +234,7 @@ background: #FFF;
 
 .each-service{
     border-radius: 16px;
-background: #FAF8FE;
+background: var(--white-background);
 padding: 40px 40px;
 display: flex;
 flex-direction: column;
@@ -304,20 +302,33 @@ gap: 70px;
     display: flex;
     padding: 40px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 100px;
     margin-top: 40px;
     margin-bottom:100px ;
     border-radius: 16px;
-background: #FAF8FE;
+background: var(--white-background);
 
 }
 
+.title-and-image{
+    flex:   3;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.other-info {
+    flex: 1;
+}
+
 .other-info ul{
-padding-right: 50px ;
+
  
 display: flex;
 
 flex-direction: column;
 align-items:start ;
+text-align: left;
 gap: 30px;
 
     
@@ -345,14 +356,189 @@ display: flex;
 
 }
 
+.top-name{
+    display: flex;
+    gap: 30px;
+
+
+}
+.starline{
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    color: #0A0A0A;
+    flex-wrap: wrap;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 120% */
+
+}
+
+.starsline-and-placetitle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.place-title{
+    color: #005A96;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 29px; /* 120.833% */
+
+}
+
+
+.para-award p{
+    color: #0A0A0A;
+ 
+
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 25px; /* 166.667% */
+
+}
+
+
+.last-line-right-section{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.last-line-right-section div{
+    border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    padding: 8px 16px;
+    cursor: pointer;
+    
+    
+    
+}
+.last-line-right-section p{
+    display: flex;
+    color: #0A0A0A;
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px; /* 118.75% */
+}
+
+.last-line-buttons-right-section{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.last-line-buttons-right-section button:first-child{
+    border-radius: 4px;
+background: #005A96;
+color: white;
+width: 245px;
+height: 50px;
+padding: 12px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border: 1px solid #005A96;
+cursor: pointer;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 19px; /* 118.75% */
+display: flex;
+
+}
+
+.last-line-buttons-right-section button:first-child:hover{
+    background-color:var(--hover-background);;
+   
+}
+
+.last-line-buttons-right-section button:nth-child(2){
+border-radius: 4px;
+background: white;
+color: #005A96;
+width: 245px;
+height: 50px;
+padding: 12px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border: 1px solid #005A96;
+cursor: pointer;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 19px; /* 118.75% */
+display: flex;
+
+}
+.last-line-buttons-right-section button:nth-child(2):hover{
+background-color: var(--white-background);
+
+}
+
+
+
 
 /* RESPONSIVE */
 
+@media screen and (max-width: 1600px){
+    .nav-container{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 768px){
+.navbar{
+    gap: 20px;
+}
+
+    .link {
+       gap: 0;
+    }
+    .Request-button{
+       
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 10px; /* 118.75% */
+    display: flex;
+    padding: 12px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+    }
+   
+
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 479px){
+
   /* HEADER  */
    
     .nav-container{
-        width: 100%;
+       width: 100%;
+        
     }
    
     .link{
@@ -422,7 +608,7 @@ display: flex;
         gap: 10px;
     }
     .input-container{
-        width: 100%;
+        width: 90%;
     }
     .input-container input{
         width: 100%;
@@ -479,7 +665,7 @@ display: flex;
 .each-service{
     border-radius: 16px;
 background: #FAF8FE;
-padding: 40px 40px;
+padding: 20px 20px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
