@@ -652,6 +652,7 @@ line-height: 38px; /* 118.75% */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap:50px
 }
 
 .tag-box{
@@ -671,7 +672,7 @@ border: 1px solid rgba(0, 0, 0, 0.10);
 padding: 8px 16px;
 color: #0A0A0A;
 font-family: Inter;
-font-size: 16px;
+font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: 22px; /* 137.5% */
@@ -702,6 +703,7 @@ padding: 6px 12px;
 .stars{
     margin-bottom: 40px;
 }
+
 /* pre-footer */
 .pre-footer-wrapper{
     margin-bottom: 12vh;
@@ -978,6 +980,21 @@ line-height: 19px; /* 118.75% */
 
 }
    
+
+
+.first-child-connected {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    flex: 1;
+}
+
+.blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
 }
 
@@ -1393,5 +1410,53 @@ padding: 40px;
 border-radius: 14px;
 }
 
+/* industries we service */
+.all-tag-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:40px
+}
+
+.connected-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.girl-img img{
+    width:350px;
+   
+}
+
+.connected-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+
+.reviewer-name p {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.pre-footer-para h1 {
+    color: #0A0A0A;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
 }
 
