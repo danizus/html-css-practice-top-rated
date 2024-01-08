@@ -91,6 +91,7 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 cursor: pointer;
+
 }
 
 .Request-button:hover{
@@ -104,11 +105,6 @@ cursor: pointer;
 
 
 /* herosection */
-
-
-
-
-
 
 
 .background{
@@ -131,23 +127,14 @@ cursor: pointer;
 
 }
 
-
-
-
-
-
 .hero-text{
     flex:2;
     max-width: 60%;
   
-
-
 }
 .hero-text p{
     margin-bottom: 20px;
   
-
-
 }
 .hero-text h1{
     color: #FFF;
@@ -160,8 +147,6 @@ cursor: pointer;
     text-transform: capitalize;
     margin-bottom: 90px;
   
-
-
 }
 
 /* .hero-img{
@@ -197,9 +182,7 @@ background: #FFF;
     padding:5px 15px;
     border-radius: 4px;
     background: #005A96;
-    text-decoration: none;
-    appearance: none;
-    box-shadow: none;
+    cursor: pointer;
 }
 
 
@@ -540,10 +523,54 @@ color: white;
     color: black;
     background-color: white;
 }
-.connected-flex-container div:nth-child(2){
-  
- 
+.laptop-img {
     flex: 1;
+    margin-top: -50px;
+}
+
+/* GIRL SECTION */
+
+.girl-img{
+    margin-top:-100px;
+}
+.first-child-girls{
+    margin: 10vh 0px;
+    flex: 1;
+   
+}
+.first-child-girls h1{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 34px;
+font-style: normal;
+font-weight: 600;
+line-height: 38px; /* 118.75% */
+}
+.first-child-girls p{
+    color: #FFF;
+    margin-top: 2vh;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+}
+.first-child-girls button{
+    margin-top:6vh ;
+    border-radius: 4px;
+border: 1px solid #FFF;
+display: flex;
+padding: 16px 64px;
+justify-content: center;
+align-items: center;
+cursor:pointer;
+background-color: transparent;
+color: white;
+}
+.first-child-girls button:hover{
+    color: black;
+    background-color: white;
 }
 
 /* <!-- GUIDES SECTION --> */
@@ -814,6 +841,7 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+   
 }
 
 
@@ -856,6 +884,15 @@ line-height: 21px; /* 150% */
 .margin-below-socials{
     margin-bottom: 30px;
 }
+.top-footer-container{
+    display: flex;
+
+}
+
+
+
+
+
 
 /* RESPONSIVE */
 
@@ -884,6 +921,7 @@ line-height: 21px; /* 150% */
     justify-content: center;
     align-items: center;
     gap: 5px;
+  
    
     }
 
@@ -1531,6 +1569,7 @@ border-radius: 14px;
 
 .girl-img img{
     width:350px;
+   
    
 }
 
